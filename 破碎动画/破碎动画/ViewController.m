@@ -38,7 +38,7 @@
     
     self.bgView1 = [[UIImageView alloc]initWithFrame:CGRectMake(10, 100, 100, 100)];
     [self.view addSubview:self.bgView1];
-    self.bgView1.image = [UIImage imageNamed:@"1.jpg"];
+    self.bgView1.image = [UIImage imageNamed:@"instrgam"];
     
     self.bgView2 = [[UIImageView alloc]initWithFrame:CGRectMake(120, 100, 100, 100)];
     [self.view addSubview:self.bgView2];
