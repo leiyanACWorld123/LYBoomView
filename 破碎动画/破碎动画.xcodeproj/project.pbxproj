@@ -13,6 +13,7 @@
 		184605221D57914F00D564D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184605201D57914F00D564D3 /* Main.storyboard */; };
 		184605241D57914F00D564D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184605231D57914F00D564D3 /* Assets.xcassets */; };
 		184605271D57914F00D564D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184605251D57914F00D564D3 /* LaunchScreen.storyboard */; };
+		184605301D5791D600D564D3 /* UIView+Boom.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846052F1D5791D600D564D3 /* UIView+Boom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		184605231D57914F00D564D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184605261D57914F00D564D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184605281D57914F00D564D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1846052E1D5791D600D564D3 /* UIView+Boom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Boom.h"; sourceTree = "<group>"; };
+		1846052F1D5791D600D564D3 /* UIView+Boom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Boom.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +61,10 @@
 		184605161D57914F00D564D3 /* 破碎动画 */ = {
 			isa = PBXGroup;
 			children = (
-				1846051A1D57914F00D564D3 /* AppDelegate.h */,
-				1846051B1D57914F00D564D3 /* AppDelegate.m */,
+				1846052E1D5791D600D564D3 /* UIView+Boom.h */,
+				1846052F1D5791D600D564D3 /* UIView+Boom.m */,
 				1846051D1D57914F00D564D3 /* ViewController.h */,
 				1846051E1D57914F00D564D3 /* ViewController.m */,
-				184605201D57914F00D564D3 /* Main.storyboard */,
-				184605231D57914F00D564D3 /* Assets.xcassets */,
-				184605251D57914F00D564D3 /* LaunchScreen.storyboard */,
-				184605281D57914F00D564D3 /* Info.plist */,
 				184605171D57914F00D564D3 /* Supporting Files */,
 			);
 			path = "破碎动画";
@@ -74,6 +73,12 @@
 		184605171D57914F00D564D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				184605201D57914F00D564D3 /* Main.storyboard */,
+				184605231D57914F00D564D3 /* Assets.xcassets */,
+				184605251D57914F00D564D3 /* LaunchScreen.storyboard */,
+				184605281D57914F00D564D3 /* Info.plist */,
+				1846051A1D57914F00D564D3 /* AppDelegate.h */,
+				1846051B1D57914F00D564D3 /* AppDelegate.m */,
 				184605181D57914F00D564D3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1846051F1D57914F00D564D3 /* ViewController.m in Sources */,
+				184605301D5791D600D564D3 /* UIView+Boom.m in Sources */,
 				1846051C1D57914F00D564D3 /* AppDelegate.m in Sources */,
 				184605191D57914F00D564D3 /* main.m in Sources */,
 			);
